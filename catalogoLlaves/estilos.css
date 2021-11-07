@@ -1,0 +1,65 @@
+body{
+    color: #222;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+.grande{
+    font-size: 70px;
+}
+.chico{
+    font-size: 20px;
+}
+
+.flex-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item{
+    flex-grow:1;
+    margin:20px;
+    max-width:300px;
+    border: 5px solid #224;
+    padding: 20px;
+}
+.flex-item:hover{
+    color:#224;
+    border-color:#466;
+    box-shadow:0px 0px 20px #266;
+}
+.flex-item:focus{
+    color:#224;
+    border-color:#466;
+    box-shadow:0px 0px 20px #266;
+}
+
+
+.llave-img{
+    width:150px;
+    height: 150px;
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin:20px;
+    }
+    
+h2,h3{
+    margin:0;
+}
+
+h3{
+    color:#444;
+}
+p b{
+    color:#433;
+}
+
+form{
+    width:100%;
+    text-align: center;
+}
+input[type="submit"]{
+    font-size: 30px;
+    padding:10px;
+    background-color: #000;
+    color:#fff;
+}

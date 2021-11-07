@@ -14,7 +14,7 @@ links.addEventListener("click",function(ev){
     setTimeout(function(){
        // window.close();
         location.href= "../index.html";
-    },700);
+    },1000);
 
     return false;
 });

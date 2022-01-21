@@ -1,0 +1,104 @@
+body{
+    background-image: url(./blackandwhite.jpg);
+    
+}
+header{
+    background: #06111C;
+    color: rgb(143, 117, 117);
+    text-align: center;
+    font-size:160%;
+    box-shadow: 5px 5px 10px  red;
+    padding : 0px 0px 10px;
+    font-family: 'Abril Fatface', cursive;
+}
+.imagenes_cont{
+    
+    width:100%;
+    height:100%;
+    
+    
+    display:flex;
+    flex-direction: column;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Montserrat', sans-serif;
+    color:#fff;
+    font-size: 180%;
+    justify-content: center;
+    background-color: black;
+    
+}
+.imagenes{
+    width:100%;
+}
+.imagenes img{
+    width:100%;
+    height:100%;
+    
+}
+.aside{
+    width:30%;
+    height:100%;
+}
+.folowMe{
+    font-size:180%;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sedgwick Ave', cursive;
+    color:#fff;
+}
+.folowMe a{
+    text-decoration:none;
+    color:#fff;
+}
+.folowMe a:hover{
+    color:rgb(67, 139, 67)
+}
+.galeria{
+    width:100%;
+    height:100%;
+    box-shadow: 5px 5px 5px 10px blue;
+    display :flex;
+}
+.productos {
+    width:70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 400px;
+}
+.productos div{
+    border: 5px solid rgb(255, 145, 0);
+    
+  }
+  .productos img{
+      width:100%;
+      height:100%;
+  }
+  @media (max-width:600px) {
+    .header{
+        background: #06111C;
+        color: rgb(143, 117, 117);
+        text-align: center;
+        justify-content: center;
+        font-size:160%;
+        
+        padding : 0px 0px 10px;
+        font-family: 'Abril Fatface', cursive;
+        width:100%;
+    }
+   .galeria{
+       display:block;
+       width:100%;
+   }
+   .productos{
+       width:100%;
+      
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 400px;
+   }
+   .aside{
+       width:100%;
+   }
+  }

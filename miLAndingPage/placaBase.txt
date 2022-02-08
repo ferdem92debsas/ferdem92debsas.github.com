@@ -1,0 +1,8 @@
+Placa base
+AsRock.
+ASUS.
+Biostar.
+Gigabyte Technology.
+Intel Corporation.
+Lenovo.
+MSI.

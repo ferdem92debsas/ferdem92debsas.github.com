@@ -75,8 +75,8 @@ header{
       width:100%;
       height:100%;
   }
-  @media (max-width:600px) {
-    .header{
+@media (max-width:600px) {
+ .header{
         background: #06111C;
         color: rgb(143, 117, 117);
         text-align: center;
@@ -87,18 +87,125 @@ header{
         font-family: 'Abril Fatface', cursive;
         width:100%;
     }
-   .galeria{
+ .galeria{
        display:block;
        width:100%;
    }
-   .productos{
+ .productos{
        width:100%;
       
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-auto-rows: 400px;
    }
-   .aside{
+
+ .aside{
        width:100%;
    }
+ .galeria>.selectores{
+  width:100vw;
+  border: none;
+  text-align: center; 
+  
+}
+.galeria>.selectores img{
+    width:80%;
+    height:22vw;
+}
+  
+ .selectores div{
+        display: block;
+    }
+ .change{
+     box-sizing: content-box;
+     margin:auto;
+ }   
+
+   
+}
+  
+.hidden{
+      display:  none;
+      background-color: black;
   }
+  .selectores{
+      width:70%;
+      border:rgb(67, 139, 67) solid 7px;
+  }
+  .selectores img{
+      width: 100%;
+      
+  }
+  .change{
+    margin-left: 3.2%;
+    display:flex;  
+    text-align: center;
+    
+}
+.change p{
+    box-sizing: content-box;
+    box-shadow: 2px 1px 2px 3px brown;
+    background-color: #06111C;
+    padding: 0px 20px;
+    font-size: 180%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: rgba(175, 175, 0, 0.959);
+  }
+  .select{
+     height: 40px;
+     margin:auto ;
+     background-color: rgb(15, 11, 4);
+     color:#fff;
+     border:none;
+     padding: 5px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .green_mode{
+      color:green;
+      font-size: 40px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    }
+    .green_mode a{
+        text-decoration: none;
+    }
+  .confirmPc{
+      text-align: center;
+      margin-bottom: 20px;
+     
+  }
+  .confirmPc input{
+      width:30%;
+      background-color: #06111C;
+      color:#fff;
+  }
+  .img_rdc {
+      width:50%;
+      height:18vw;
+    
+    }
+      
+  .img_rdc_top {
+    width:50%;
+    height:18vw;
+    padding: 12px 0px;
+  }
+  .pulsador{
+      border:rgb(67, 139, 67)  4px solid;
+      background: red;
+      width:30%;
+      height: 200%;
+      border-radius: 50%;
+      font-size: 40px;
+      margin:auto;
+      text-align: center;
+      padding:30px 0px 30px;
+      text-decoration: none;
+      margin-bottom: 20px;
+    }
+    .textConfirm>.pulsador a{
+        text-decoration: none;
+    }
+
+
+    

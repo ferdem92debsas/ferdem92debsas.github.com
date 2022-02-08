@@ -120,7 +120,10 @@ header{
      box-sizing: content-box;
      margin:auto;
  }   
-
+ .confirmPc{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
    
 }
   

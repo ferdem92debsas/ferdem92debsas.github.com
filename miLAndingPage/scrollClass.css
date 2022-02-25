@@ -36,8 +36,10 @@ header{
     
 }
 .aside{
-    width:30%;
-    height:100%;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
 }
 .folowMe{
     font-size:180%;
@@ -120,6 +122,8 @@ header{
         
  .aside{
        width:100%;
+       display: flex;
+    flex-direction: column;
    }
  .galeria>.selectores{
   width:100vw;
@@ -299,3 +303,42 @@ header{
            
             cursor:pointer;
          }
+         .enviarRueda{
+            color: #fff;
+            padding: 20%;
+            background-color: green;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 250%;
+            display: flow-root;
+            text-align: center;
+            justify-content: center;
+            text-decoration: none;
+            }
+         .envio{
+            margin: auto;
+            border-radius: 50%;
+            /* margin-left: -15px; */
+            background-color: darkslategray;
+            padding: 50px;
+            margin-left: auto;
+            transition: 2s;
+         }
+         .envio a{
+            text-decoration: none;
+           margin: auto;
+           border-radius: 50%;
+           /* margin-left: -15px; */
+           background-color: darkslategray;
+           padding: 50px;
+           margin-left: auto;
+           transition: 2s;
+        }
+         .envio:hover{
+             cursor:pointer;
+             background:#7c0404c9;
+             transition: 2s;
+             text-decoration: none;
+         }
+         
+         

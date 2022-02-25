@@ -82,13 +82,13 @@ const joystickLogitech = new Galeria(
     `http://wa.me/541134487550/?text=me%20interesa%20el%20articulo=%20joystick%20Logitech`    
   )
   
-  /*let items = document.getElementById('items');
-  var mql = window.matchMedia('(max-width: 600px)');
+  let items = document.getElementById('items');
+  /*var mql = window.matchMedia('(max-width: 600px)');
   mql.addEventListener('change',function(e){
       console.log('el screen cambio');
       items.classList.replace('items','items_grid');
       e.preventDefault;
-  });
+      
 */
 
 const itemImg = (cuadro)=> { 
@@ -143,5 +143,66 @@ const md_link = (mem,o)=>{
         console.log(o.link)
     });
 } 
+//const rollers = document.querySelector('.rollers');
+const rollers = document.getElementById('rollers');
 
+const imgVec =[
+    cuadro,memoriaKingston,fuente800,joystickLogitech,grafica1gb,
+    tecladoRedragon,motherAsus,vinchaRedragon,wd3Elements
+]
+
+
+
+
+const captureLink = function(link){
+     let links = ``;
+    links += link;
+    return links;
+}
+
+let el = {
+  mensaje :'',
+}
+
+function randomMsjImg(cuadro){
+    let linkRueda = `http://wa.me/541134487550/?text=me%20interesa%20el%20articulo=%20`;
+    let mensaje ='';
+    for (let j =0 ; j<5 ; j++){
+        let a = getRandomArbitrary(0,cuadro.length-1);
+        let i = Math.round(a);
+         mensaje +=`<div>
+          ${cuadro[i].src}
+          </div>`;
+          let captureName = `${cuadro[i].name}`;
+          linkRueda += `producto${j+1}=%20${captureName}`;
+    }
+  
+    el[0]=captureLink(linkRueda);
+    console.log(el[0]);
+    return mensaje;
+}
+
+function getRandomArbitrary(min, max) {
+    return Math.random() * (max - min) + min;
+  }
+
+
+
+
+window.addEventListener('DOMContentLoaded',function(){
+    rollers.innerHTML = randomMsjImg(imgVec);
+    
+})
+
+let press = document.querySelector('.press');
+
+press.addEventListener('click', function(){
+    rollers.innerHTML = randomMsjImg(imgVec);
+});
+
+const sendRoll = document.querySelector('.envio');
+
+sendRoll.addEventListener('click',function(){
+    open(el[0]);
+});
 

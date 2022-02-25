@@ -84,6 +84,11 @@ const calcularMemoria = function (){
             }
             return costo ; 
     }
+
+    //ahora una funcion para hacer una rueda de fortunas 
+    //con los productos.
+
+     
      
 
 

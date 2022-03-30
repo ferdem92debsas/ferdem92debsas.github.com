@@ -153,5 +153,6 @@ cursor:pointer;
 @media (max-width: 600px) {
     .secondStand{
         flex-direction: column;
+        flex-direction: column;
     }
   }

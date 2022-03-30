@@ -1,0 +1,7 @@
+hola que tal me quede sorprendido es muy interezante tu vocación te propongo una landing que contará basicamente de tres bloques en una misma página.
+En el primer bloque habrá una portada central con el nombre y tu descripción comentada.   
+El segundo bloque contará con un llamado de tipo "imagen o cartel" que invite a este ciclo de encuentros, donde se brinde 
+informacion contundente sobre los mismos(tales como el lugar en donde se hacen, horarios, y numero de contacto [donde se puede redireccionar a wsp y a otras redes sociales ]).
+La tercera parte será en dónde se pueda invitar al usuario a que forme parte de tu comunidad, registrarse y descargar el ebook( en donde te enviaran un mail al correo corporativo con el cual contará la landing,. con nombre, asunto y mensaje. );    
+luego de que la suscripsion se realize el usuario será redirigido ala ubicaión del link de descarga de tu ebook(el cual deberá estar alojado en una nube tal como google-drive, mediafire, mega, etc. ). 
+

@@ -1,0 +1,152 @@
+
+
+.galery{
+    background-image:url("./imgDarya.jpg") ;
+    background-size: 100% 100%;
+    z-index: 00000;
+   
+}
+
+
+.firstStand{
+    height: 130%;
+    width:100%;
+    opacity:0.78;
+    z-index: 111;
+    /*   background-color: #69688C;
+ opacity: 3;
+ border: #69388C solid 2px;
+ */
+text-align: center;
+font-size: 200%;
+display:flex;
+}
+.secondStand{
+    height: 100%;
+    width:100%;
+    opacity:0.89;
+    /*   background-color: #69688C;
+ opacity: 3;
+ border: #69388C solid 2px;
+ */
+text-align: center;
+font-size: 200%;
+display:flex;
+flex-direction: row;
+
+
+}
+.threeStand{
+    height: 130%;
+    width:100%;
+    opacity:1;
+    /*   background-color: #69688C;
+ opacity: 3;
+ border: #69388C solid 2px;
+ */
+ background-color: black;
+text-align: center;
+font-size: 166%;
+display:flex;
+}
+.title{
+   
+    width:74%;
+    height:100%;
+    margin:auto;
+    background-color: black;
+    display:block;
+    opacity:1;
+    flex-grow:calc(10);
+    text-align:center;
+   
+}
+.title div{
+    position: relative;
+    
+    
+    font-weight: 300%;
+    background-color: black;
+}
+.titulo{
+    
+   
+    font-weight: 300%;
+    background-color: black;
+    font-size:140%;
+    
+}
+.secondStand div{
+    
+    
+    
+    font-weight: 140%;
+    
+    
+    
+    
+    opacity:1;
+    flex-grow:calc(10);
+    text-align:center;
+   
+}
+.threeStand div{
+    
+    color:rgb(17, 17, 97);
+    font-weight: 300%;
+    background-color: black;
+    text-align: center;
+}
+.secondStand {
+    font-size: 400%;
+}
+.secondStand .titulo img{
+  
+    width:66%;
+    height:100%;
+    margin-left:0;
+    z-index: 444444;
+    position: relative;
+
+}
+.firstStand>.title>.titulo.primer{
+    font-size:300%;
+    color:blanchedalmond;
+    text-shadow: 2px 2px 2px rgba(0, 0, 255, 0.287);
+    margin-top: 2%;
+    margin-bottom: 8%;
+}
+.firstStand>.title>.titulo.item{
+    font-size:180%;
+    color:blanchedalmond;
+    cursor:pointer;
+    transition: 2s ;  
+    
+    font-family: 'Varela Round', sans-serif;
+}
+.firstStand>.title>.titulo.item:hover{
+    color:brown;
+    text-shadow: 25px 25px 25px black;
+    
+}
+.secondStand>.titulo{
+   color:#fff;
+   width:100%;
+   
+}
+.secondStand>.titulo h4{
+    cursor: zoom-in;
+}
+.threeStand>.titulo div{
+    color:rgb(95, 10, 10);
+    font-family: 'Nunito', sans-serif;
+font-family: 'Varela Round', sans-serif;
+width:100%;
+text-align: center;
+cursor:pointer;
+
+}
+.threeStand>.titulo{
+    margin:auto;
+    text-align: center;
+}

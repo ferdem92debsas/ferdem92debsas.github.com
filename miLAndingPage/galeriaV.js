@@ -81,7 +81,20 @@ const joystickLogitech = new Galeria(
     'joystickLogitech',
     `http://wa.me/541134487550/?text=me%20interesa%20el%20articulo=%20joystick%20Logitech`    
   )
-  
+  const memoria4gbSentey = new Galeria(
+      '<img src="./Accesorios/Memoria_Ram_Pc_4gb_Ddr3_1600 _Mhz_Sentey_Crucial_Adata.png" alt="" srcset="">',
+      'Memoria%20ram%pc%204gb%20Ddr3%201600Mhz',
+       'https://articulo.mercadolibre.com.ar/MLA-606900163-memoria-ram-pc-4gb-ddr3-1600-mhz-sentey-crucial-adata-_JM#position=28&search_layout=grid&type=item&tracking_id=1be40ffb-509b-432a-af68-9b8ec592cdb8',
+      'memoria4gbSentey',
+       `http://wa.me/541134487550/?text=me%20interesa%20el%20articulo=%20Memoria%20ram%pc%204gb%20Ddr3%201600Mhz`
+  ) 
+  const fuente550wLNZ = new Galeria(
+      '<img src="./Accesorios/fuente_pc_550wLNZ.png" alt="" srcset="">',
+      'fuente%20ATX%20550wLNZ',
+      'https://www.mercadolibre.com.ar/fuente-de-alimentacion-para-pc-lnz-px550-fs-550w-115v230v/p/MLA15799348?pdp_filters=seller_id:1534239#searchVariation=MLA15799348&position=1&search_layout=stack&type=product&tracking_id=ba0a8cca-d90c-4883-a170-6c6ca671b587',
+      'fuente550wLNZ',
+      `http://wa.me/541134487550/?text=me%20interesa%20el%20articulo=%20fuente%20ATX%20550wLNZ`
+  )
   let items = document.getElementById('items');
   /*var mql = window.matchMedia('(max-width: 600px)');
   mql.addEventListener('change',function(e){
@@ -103,52 +116,46 @@ const itemImg = (cuadro)=> {
 document.addEventListener("DOMContentLoaded",function(e){
     e.preventDefault; 
     let marco = itemImg(cuadro);
+    
+    
     items.innerHTML = marco;
-    items.innerHTML += itemImg(tecladoRedragon);
-    items.innerHTML += itemImg(memoriaKingston);
-    items.innerHTML += itemImg(fuente800);
     items.innerHTML += itemImg(wd3Elements);
-    items.innerHTML += itemImg(grafica1gb);
     items.innerHTML += itemImg(vinchaRedragon);
-    items.innerHTML += itemImg(motherAsus);
     items.innerHTML += itemImg(joystickLogitech);
+    items.innerHTML += itemImg(memoria4gbSentey);
+    items.innerHTML += itemImg(fuente550wLNZ);
+   
 
-    let potencia = document.getElementById(fuente.id);
     let memoria = document.getElementById('memoria8gb');
-    let memoriaKing = document.getElementById(memoriaKingston.id);
-    let potencia800 = document.getElementById(fuente800.id);
     let disco1Tera = document.getElementById(wd3Elements.id);
-    let graficaMsi = document.getElementById(grafica1gb.id);
     let auricularRedragon = document.getElementById(vinchaRedragon.id);
-    let motherAsusAM4 = document.getElementById(motherAsus.id);
-    let tecladoRedragonRgb = document.getElementById(tecladoRedragon.id);
     let joystickLogitec = document.getElementById(joystickLogitech.id);
-
+    let memoria4gb1600Mhz = document.getElementById(memoria4gbSentey.id);
+    let fuente550w = document.getElementById(fuente550wLNZ.id);
+  
+    
     md_link(memoria,cuadro);
-    md_link(memoriaKing,memoriaKingston);
-    md_link(potencia800,fuente800);
     md_link(disco1Tera,wd3Elements);
-    md_link(graficaMsi,grafica1gb);
     md_link(auricularRedragon,vinchaRedragon);
-    md_link(motherAsusAM4,motherAsus);
-    md_link(tecladoRedragonRgb,tecladoRedragon);
     md_link(joystickLogitec,joystickLogitech);
+    md_link(memoria4gb1600Mhz,memoria4gbSentey);
+    md_link(fuente550w,fuente550wLNZ);
 
     
-},true);
+    },true);
 
 const md_link = (mem,o)=>{
     mem.addEventListener("click",function(){
         open(o.linkWsp);
-        console.log(o.link)
+      //  console.log(o.link)
     });
 } 
 //const rollers = document.querySelector('.rollers');
 const rollers = document.getElementById('rollers');
 
 const imgVec =[
-    cuadro,memoriaKingston,fuente800,joystickLogitech,grafica1gb,
-    tecladoRedragon,motherAsus,vinchaRedragon,wd3Elements
+    cuadro,fuente800,joystickLogitech,grafica1gb,motherAsus,vinchaRedragon,wd3Elements,
+    memoria4gbSentey,fuente550wLNZ
 ]
 
 

@@ -145,7 +145,7 @@ const itemImg = (cuadro)=> {
 document.addEventListener("DOMContentLoaded",function(e){
     e.preventDefault; 
    // let marco = itemImg(cuadro);
-   items.innerHTML += itemImg(conversorHdmiVga); 
+   items.innerHTML = itemImg(conversorHdmiVga); 
    items.innerHTML += itemImg(auricularesBluetooth); 
    items.innerHTML += itemImg(adaptadorSata);
    items.innerHTML += itemImg(fuente550wLNZ);

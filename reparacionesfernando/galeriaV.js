@@ -123,6 +123,28 @@ const joystickLogitech = new Galeria(
         'conversorHdmiVga',
         `http://wa.me/541134487550/?text=me%20interesa%20el%20articulo=%20conversor%20hdmi-vga`
     )
+    const parlanteNgGo = new Galeria(
+        '<img src="./Accesorios/Parlante Noga Go! NG-P78 con bluetooth negro.png" alt="" srcset="">',
+        'parlante%20bluetooth%20noga%20go',
+        'https://www.mercadolibre.com.ar/parlante-noga-go-ng-p78-con-bluetooth-negro/p/MLA9456512?pdp_filters=category:MLA8618#searchVariation=MLA9456512&position=12&search_layout=stack&type=product&tracking_id=a5cc64ae-d711-4e63-95f8-3c07108e8d27',
+        'parlanteNgGo',
+        `http://wa.me/541134487550/?text=me%20interesa%20el%20articulo=%20parlante%20bluetooth%20noga%20go`
+        )
+        const mouseYindiaoA2= new Galeria(
+            '<img src="./Accesorios/Mouse de juego inalámbrico recargable Yindiao A2 negro.png" alt="" srcset="">',
+            'mouse%20inhalambrico%20Yindiao%20A2',
+            'https://www.mercadolibre.com.ar/mouse-de-juego-inalambrico-recargable-yindiao-a2-negro/p/MLA17795317?pdp_filters=adult_content:yes%7Cseller_id:314930883#searchVariation=MLA17795317&position=3&search_layout=grid&type=product&tracking_id=c149439f-365f-45f7-a654-e6a9e4761725',
+            'mouseYindiaoA2',
+            `http://wa.me/541134487550/?text=me%20interesa%20el%20articulo=%20mouse%20inhalambrico%20Yindiao%20A2`
+        )
+        const parlante8k = new Galeria(
+            '<img src="./Accesorios/Parlante Ionify Loud 8 KRK con bluetooth negro.png" alt="" srcset="">',
+            'parlante%20bluetooth%208w',
+            'https://www.mercadolibre.com.ar/parlante-ionify-loud-8-krk-con-bluetooth-negro/p/MLA18619712?pdp_filters=category:MLA8618#searchVariation=MLA18619712&position=33&search_layout=stack&type=product&tracking_id=ff4e86b3-98a4-46ff-8c25-b0dfa4ef2524',
+            'parlante8k',
+            `http://wa.me/541134487550/?text=me%20interesa%20el%20articulo=%20parlante%20bluetooth%208w`
+        )
+
 
   let items = document.getElementById('items');
   /*var mql = window.matchMedia('(max-width: 600px)');
@@ -144,8 +166,12 @@ const itemImg = (cuadro)=> {
 
 document.addEventListener("DOMContentLoaded",function(e){
     e.preventDefault; 
-   // let marco = itemImg(cuadro);
-   items.innerHTML = itemImg(conversorHdmiVga); 
+    // let marco = itemImg(cuadro);
+     
+    items.innerHTML = itemImg(parlante8k); 
+    items.innerHTML += itemImg(mouseYindiaoA2);   
+    items.innerHTML += itemImg(parlanteNgGo); 
+    items.innerHTML += itemImg(conversorHdmiVga); 
    items.innerHTML += itemImg(auricularesBluetooth); 
    items.innerHTML += itemImg(adaptadorSata);
    items.innerHTML += itemImg(fuente550wLNZ);
@@ -156,6 +182,9 @@ document.addEventListener("DOMContentLoaded",function(e){
     items.innerHTML += itemImg(joystickLogitech);
     items.innerHTML += itemImg(memoria4gbSentey);
     
+    let parlante8 = document.getElementById(parlante8k.id);
+    let mouseYindiao = document.getElementById(mouseYindiaoA2.id); 
+    let parlanteGo = document.getElementById(parlanteNgGo.id);
     let conversor_hdmi_vga = document.getElementById(conversorHdmiVga.id);
     let auricularBluetooth = document.getElementById(auricularesBluetooth.id);
     let adaptador = document.getElementById(adaptadorSata.id);
@@ -167,6 +196,9 @@ document.addEventListener("DOMContentLoaded",function(e){
     let joystickLogitec = document.getElementById(joystickLogitech.id);
     let memoria4gb1600Mhz = document.getElementById(memoria4gbSentey.id);
   
+    md_link(parlante8,parlante8k);
+    md_link(mouseYindiao,mouseYindiaoA2);
+    md_link(parlanteGo,parlanteNgGo);
     md_link(conversor_hdmi_vga,conversorHdmiVga);
     md_link(auricularBluetooth,auricularesBluetooth);
     md_link(adaptador,adaptadorSata);

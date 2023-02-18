@@ -47,7 +47,7 @@ const wd3Elements = new Galeria(
 const grafica1gb = new Galeria(
     '<img src="./Accesorios/grafica_nvidia_1gb_ddr3_msi.png" alt="" srcset="">',
     'targeta%20grafica%20nvidia%201gb%20ddr3',
-    'https://articulo.mercadolibre.com.ar/MLA-775615927-placa-de-video-msi-geforce-210-1gb-vram-ddr3-palermo-_JM#position=30&search_layout=grid&type=item&tracking_id=83850d7f-03c4-4f51-8b94-8953181eee2d',
+   'https://articulo.mercadolibre.com.ar/MLA-914697083-placa-de-video-nvidia-msi-series-n210-md1gd3-1gb-_JM#position=3&search_layout=stack&type=item&tracking_id=643b54ff-cc5c-4059-8e6b-b95e719b3dd9' ,
     'geforce1gb',
     `http://wa.me/541134487550/?text=me%20interesa%20el%20articulo=%20targeta%20grafica%20nvidia%201gb%20ddr3`    
     )
@@ -84,7 +84,7 @@ const joystickLogitech = new Galeria(
   const memoria4gbSentey = new Galeria(
       '<img src="./Accesorios/Memoria_Ram_Pc_4gb_Ddr3_1600 _Mhz_Sentey_Crucial_Adata.png" alt="" srcset="">',
       'Memoria%20ram%pc%204gb%20Ddr3%201600Mhz',
-       'https://articulo.mercadolibre.com.ar/MLA-606900163-memoria-ram-pc-4gb-ddr3-1600-mhz-sentey-crucial-adata-_JM#position=28&search_layout=grid&type=item&tracking_id=1be40ffb-509b-432a-af68-9b8ec592cdb8',
+      'https://articulo.mercadolibre.com.ar/MLA-1337930947-memoria-ram-ddr3-4gb-1600mhz-markvision-mvd34096mld-16-ctc-_JM#position=33&search_layout=grid&type=item&tracking_id=cbda57d2-ffb9-4887-b169-1c969e529bfa',
       'memoria4gbSentey',
        `http://wa.me/541134487550/?text=me%20interesa%20el%20articulo=%20Memoria%20ram%pc%204gb%20Ddr3%201600Mhz`
   ) 
@@ -105,14 +105,14 @@ const joystickLogitech = new Galeria(
     const adaptadorSata= new Galeria(
     '<img src="./Accesorios/adaptador_sata_usb.png" alt="" srcset="">',
     'adaptador%20sata%20usb',
-    'https://articulo.mercadolibre.com.ar/MLA-877647668-cable-adaptador-usb-30-a-sata-25-discos-rigidos-y-grabador-_JM#position=2&search_layout=stack&type=pad&tracking_id=8cbb63f1-1d11-436a-9649-2c402aab2f83#position=2&search_layout=stack&type=pad&tracking_id=8cbb63f1-1d11-436a-9649-2c402aab2f83&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=2&ad_click_id=OTNjMjRhMDUtMTMyOC00N2I3LWIyZTMtYzZkNjFjZjI2Mjdm',
+    'https://articulo.mercadolibre.com.ar/MLA-676276242-adaptador-usb-30-a-sata-25-discos-rigidos-velocidad-_JM#position=8&search_layout=stack&type=item&tracking_id=d363b86a-4beb-40d5-889c-d44cc9f454ca',
     'adaptadorSata',
     `http://wa.me/541134487550/?text=me%20interesa%20el%20articulo=%20adaptador%20sata%20usb`
     )
     const auricularesBluetooth= new Galeria(
         '<img src="./Accesorios/Auriculares Bluetooth Inalambricos Deportivo Pixpro Sm100.png" alt="" srcset="">',
         'auriculares%20bluethooth%20deportivo',
-        'https://articulo.mercadolibre.com.ar/MLA-1145152092-auriculares-bluetooth-inalambricos-deportivo-pixpro-sm100-_JM#position=3&search_layout=stack&type=item&tracking_id=c03f7598-3a65-45ab-aaf2-757f0988f60c',
+        'https://www.mercadolibre.com.ar/auriculares-inalambricos-pixpro-sm100-estuche-cargador/p/MLA21207309#searchVariation=MLA21207309&position=1&search_layout=stack&type=product&tracking_id=f5bfff33-f629-4b11-9411-538aed41dd3d',
         'auricularesBluetooth',
         `http://wa.me/541134487550/?text=me%20interesa%20el%20articulo=%20auriculares%20bluethooth%20deportivo`
     )
@@ -144,6 +144,13 @@ const joystickLogitech = new Galeria(
             'parlante8k',
             `http://wa.me/541134487550/?text=me%20interesa%20el%20articulo=%20parlante%20bluetooth%208w`
         )
+        const disco_solido480 = new Galeria(
+          '<img src="./Accesorios/disco_solidoKingston480gb.png">',
+          'disco%20solido%20480gb%20kingston',
+          'https://www.mercadolibre.com.ar/disco-solido-interno-kingston-sa400s37480g-480gb-negro/p/MLA17978326?pdp_filters=seller_id:61852079#searchVariation=MLA17978326&position=6&search_layout=stack&type=product&tracking_id=638c0eff-a2c2-4f16-8c34-c4bb05552344',
+          'disco_solido480',
+          `http://wa.me/541134487550/?text=me%20interesa%20el%20articulo=%20disco%20solido%20480gb%20kingston`
+        ) 
 
 
   let items = document.getElementById('items');
@@ -181,7 +188,9 @@ document.addEventListener("DOMContentLoaded",function(e){
     items.innerHTML += itemImg(vinchaRedragon);
     items.innerHTML += itemImg(joystickLogitech);
     items.innerHTML += itemImg(memoria4gbSentey);
-    
+    items.innerHTML += itemImg(grafica1gb);
+    items.innerHTML += itemImg(disco_solido480);
+
     let parlante8 = document.getElementById(parlante8k.id);
     let mouseYindiao = document.getElementById(mouseYindiaoA2.id); 
     let parlanteGo = document.getElementById(parlanteNgGo.id);
@@ -195,7 +204,9 @@ document.addEventListener("DOMContentLoaded",function(e){
     let auricularRedragon = document.getElementById(vinchaRedragon.id);
     let joystickLogitec = document.getElementById(joystickLogitech.id);
     let memoria4gb1600Mhz = document.getElementById(memoria4gbSentey.id);
-  
+    let graficaMsi1gb = document.getElementById(grafica1gb.id); 
+    let discoSolido480 = document.getElementById(disco_solido480.id);
+
     md_link(parlante8,parlante8k);
     md_link(mouseYindiao,mouseYindiaoA2);
     md_link(parlanteGo,parlanteNgGo);
@@ -209,8 +220,9 @@ document.addEventListener("DOMContentLoaded",function(e){
     md_link(auricularRedragon,vinchaRedragon);
     md_link(joystickLogitec,joystickLogitech);
     md_link(memoria4gb1600Mhz,memoria4gbSentey);
+    md_link(graficaMsi1gb,grafica1gb);
+    md_link(discoSolido480,disco_solido480);
 
-    
     },true);
 
 const md_link = (mem,o)=>{

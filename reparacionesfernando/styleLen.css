@@ -1,0 +1,87 @@
+
+body{
+    background-image: url(./blackandwhite.jpg);
+    
+}
+header{
+    background: #06111C;
+    color: rgb(143, 117, 117);
+    text-align: center;
+    font-size:160%;
+    box-shadow: 5px 5px 10px  red;
+    padding : 0px 0px 10px;
+    font-family: 'Abril Fatface', cursive;
+}
+.home{
+  width: 100%;
+  height: 50px;
+  background: #00b09b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  text-align: center;
+   position: -webkit-sticky;
+  position: sticky;
+  top: -1px; 
+
+}
+.home >a{
+
+  text-align: center;
+text-decoration:none;  
+ margin:auto;
+
+color: black;
+}
+
+.home>p{
+
+margin-bottom: 10px;
+ 
+ 
+}
+
+.productos {
+  margin-right: : 0;
+  margin-top: 6px;
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 600px;
+
+}
+.productos div{
+display: flex;
+
+    border: 1px solid rgb(16, 102, 145,57);
+box-shadow: 2px 2px 8px 5px black;
+color: white;
+background-color: black ;
+display: inline-table;
+   
+  }
+  .productos p{
+    margin: 0;
+    margin-left: 3px;
+    color: white;
+
+  
+
+  }
+  .productos h4{
+    margin: 0;
+    text-align: center;
+    font-size: 120%;
+    background-color: black;
+    color: white;
+    padding: 12px 0px;
+  }
+  .productos img{
+      width:100%;
+      height:60%;
+      background-color: white;
+
+    }
+
+  
+

@@ -26,7 +26,7 @@ definirTitulo(titulo,"Ivan Guitarrero");
 
 const cafecito = document.querySelector("body > div > div.cuadro");
 const imagenCafe={
-	src : './src/cafecitoBajo.png',
+	src : './src/cafecitoBajo_2.jpg',
 	url : 'https://cafecito.app/ivan8g2deloeste',
 	alt : 'cafecito'
 }
